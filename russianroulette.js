@@ -1,0 +1,1 @@
+javascript:(function(){var c=[0,0,0,0,0,0];c[Math.floor(Math.random()*6)]=1;var g=false;alert("Welcome to Russian Roulette!");while(!g){if(!confirm("Pull trigger?"))break;var r=Math.floor(Math.random()*6);if(c[r]){alert("BANG! Game Over.");g=true}else alert("Click! Survived.")}})();
