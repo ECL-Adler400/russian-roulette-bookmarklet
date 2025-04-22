@@ -40,7 +40,8 @@ Below are step‑by‑step instructions for Chrome, Edge, and Firefox. You only 
 4. In the **Location** (URL) field, paste the snippet from above.  
 5. Click **Add**.  
 
-
+---
+### This is one of my firsts JS programs, which means you will likely encounter a bug or glitch.
 ---
 
 ### LICENSE
