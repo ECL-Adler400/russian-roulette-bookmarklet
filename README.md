@@ -10,9 +10,14 @@
 
 ---
 
-## 📋 Code
+## 📋 Code V.1
 ```bash
 javascript:(function(){var c=[0,0,0,0,0,0];c[Math.floor(Math.random()*6)]=1;var g=false;alert("Welcome to Russian Roulette!");while(!g){if(!confirm("Pull trigger?"))break;var r=Math.floor(Math.random()*6);if(c[r]){alert("BANG! Game Over.");g=true}else alert("Click! Survived.")}})();
+```
+
+## 📋 Code V.2
+```bash
+javascript:(function(){var chambers=[0,0,0,0,0,0];chambers[Math.floor(Math.random()*6)]=1;var loaded=1,empty=5,roundsSurvived=0,gameOver=false;alert("Welcome to Russian Roulette!");while(!gameOver){if(!confirm("Pull trigger?\nLoaded: "+loaded+"\nEmpty: "+empty))break;var result=Math.floor(Math.random()*6);if(chambers[result]){alert("BANG! Game Over.\nRounds Survived: "+roundsSurvived);gameOver=true}else{roundsSurvived++;alert("Click! Survived.\nRounds Survived: "+roundsSurvived)}}})();
 ```
 
 ---
